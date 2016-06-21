@@ -5,6 +5,7 @@
 
 export C=/tmp/backupdir
 export S=/system
+export SUCHECK=/data/.supersu
 
 
 backup_file() {
@@ -34,4 +35,11 @@ restore_file() {
       rm "$2";
     fi
   fi
+}
+
+su_systemless() {
+    cat > /data/.supersu << EOF
+SYSTEMLESS=true
+BINDSYSTEMXBIN=false
+EOF
 }
