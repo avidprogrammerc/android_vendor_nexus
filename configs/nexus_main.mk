@@ -19,8 +19,7 @@ PRODUCT_PACKAGE_OVERLAYS += \
 # Main Required Packages
 PRODUCT_PACKAGES += \
     Launcher3 \
-    LiveWallpapersPicker \
-    PrebuiltExchange3Google
+    LiveWallpapersPicker
 
 #Custom Packages
 PRODUCT_PACKAGES += \
