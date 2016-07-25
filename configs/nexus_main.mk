@@ -26,10 +26,6 @@ PRODUCT_PACKAGES += \
     LockClock \
     masquerade
 
-# Kernel Adiutor
-PRODUCT_PACKAGES += \
-    KernelAdiutor
-
 # Busybox
 PRODUCT_PACKAGES += \
     Busybox
